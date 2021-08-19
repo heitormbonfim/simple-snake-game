@@ -1,0 +1,55 @@
+body{
+  background-color: black;
+  color: white;
+}
+
+.containerDiv {
+  width: 400px;
+  margin: auto;
+  padding: 50px;
+  color: lime;
+  text-align: center;
+}
+
+.start {
+  outline: none;
+  background-color: lime;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px 10px 20px;
+  cursor: pointer;
+}
+
+.start:hover {
+  transition: all 0.3s ease 0s;
+  background-color: #00CC00;
+}
+
+.score {
+  font-size: 24px;
+  margin: 10px;
+  color: orange;
+}
+
+.grid {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  border-style: solid;
+  border-color: red;
+}
+
+.grid div {
+  width: 40px;
+  height: 40px;
+}
+
+.snake {
+  background-color: lime;
+}
+
+.apple {
+  background-color: orange;
+}
